@@ -1,5 +1,5 @@
 body {
-  font-family: "Epilogue", serif;
+  font-family: 'Epilogue', serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
@@ -19,15 +19,17 @@ body {
   width: auto;
   object-fit: cover;
 }
-.menu-item{
-font-size: 17px;
-font-weight: 400;
-line-height: 27px;
-list-style-type: none;
-display: flex;
-gap: 24px;
+
+.menu-item {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
 }
-.tentang{
+
+.tentang {
   width: 100%;
   display: flex;
   gap: 48px;
@@ -40,39 +42,40 @@ gap: 24px;
 }
 .box2 {
   width: 480px;
-  height: 360px;
   object-fit: cover;
 }
-.hero-subtitle{
+.hero-subtitle {
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
 }
 
-.hero-title{
-font-size: 68px;
-font-weight: 600;
-line-height: 69.7px;
-margin: 0 0 24px 0;
+.hero-title {
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 69.7px;
+  margin: 0 0 24px 0;
 }
 
-.hero-description{
-font-size: 17px;
-font-weight: 400;
-line-height: 27px;
+.hero-description {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
 }
-.hero-button{
-width: 211px;
-height: 78px;
-padding: 24px 64px 24px 64px;
-color: white;
-background-color: #2D2D2D;
-font-size: 20px;
-font-weight: 600;
-line-height: 30px;
-margin: 48px 0 0 0;
+.hero-button {
+  width: 211px;
+  height: 78px;
+  padding: 24px 64px 24px 64px;
+  color: white;
+  background-color: #2d2d2d;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 48px 0 0 0;
 }
-.brand{
+.brand {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -80,15 +83,15 @@ margin: 48px 0 0 0;
   box-sizing: border-box;
   align-items: center;
 }
-.brand-logo{
-height: 38.21px;
-object-fit: cover;
+.brand-logo {
+  height: 38.21px;
+  object-fit: cover;
 }
-.brand-logo2{
+.brand-logo2 {
   height: 20px;
   object-fit: cover;
 }
-.design{
+.design {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -96,64 +99,64 @@ object-fit: cover;
   box-sizing: border-box;
   align-items: center;
 }
-.product-design{
+.product-design {
   height: 124px;
   object-fit: cover;
 }
-.box-design{
-width: Fill (1,280px)px;
-height: Hug (513px)px;
-padding: 42px 24px 42px 24px;
-gap: 42px;
-opacity: 0px;
+.box-design {
+  width: Fill (1, 280px) px;
+  height: Hug (513px) px;
+  padding: 42px 24px 42px 24px;
+  gap: 42px;
+  opacity: 0px;
 }
-.description-product{
+.description-product {
   font-size: 17px;
   font-weight: 400;
   line-height: 27px;
-  }
-  .menu-product{
-    font-size: 17px;
-    font-weight: 400;
-    line-height: 27px;
-    list-style-type: none;
-    display: flex;
-    gap: 24px;
-    }
-.poto-produk{
-height: 330px;
-object-fit: cover;
+}
+.menu-product {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+.poto-produk {
+  height: 330px;
+  object-fit: cover;
 }
 
-    .product{
-      display: grid;
-      width: 100%;
-      padding: 126px 24px;
-      box-sizing: border-box;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
-    }
+.product {
+  display: grid;
+  width: 100%;
+  padding: 126px 24px;
+  box-sizing: border-box;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
 
-    .letswork{
-      width: 100%;
-      display: flex;
-      gap: 48px;
-      padding: 58px 56px;
-      box-sizing: border-box;
-    }
-    .box-letswork{
-      width: 629px;
-      height: 328px;
-    }
-    .letswork-title{
-      font-size: 68px;
-      font-weight: 600;
-      line-height: 69.7px;
-      margin: 0 0 24px 0;
-      }
-      
-      .letswork-description{
-      font-size: 17px;
-      font-weight: 400;
-      line-height: 27px;
-      }
+.letswork {
+  width: 100%;
+  display: flex;
+  gap: 48px;
+  padding: 58px 56px;
+  box-sizing: border-box;
+}
+.box-letswork {
+  width: 629px;
+  height: 328px;
+}
+.letswork-title {
+  font-size: 68px;
+  font-weight: 600;
+  line-height: 69.7px;
+  margin: 0 0 24px 0;
+}
+
+.letswork-description {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
